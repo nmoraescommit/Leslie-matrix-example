@@ -53,5 +53,14 @@ fish_year3 <- fish_leslie %*% fish_year2
 fish_year3
 
 ## ADD YOUR CODE TO PROJECT FOR YEARS 4, 5 & 6 HERE ----
+
+fy4 <- fish_leslie %*% fish_year3
+fy4
+
+fy5 <- fish_leslie %*% fy4
+fy5
+
+fy6 <- fish_leslie %*% fy5
+fy6
 ```
 
